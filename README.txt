@@ -46,7 +46,7 @@ Task 3: Adding a model class
 
 
 Date:   2024-01-24
-Times:   1930
+Time :   1930
 Task 4:  Working with a Database
          As instructed by the manual, first, I examined the database by opening the SQL Server Object Explorer (SSOX) and navigating to the "View Designer" under "dbo.Movie" which is under the "WebApplication1" table. 
          I also opened "Viewed Data" under the "dbo.Movie" but I noticed that I had no movies in my database. As a result, I ran the app and added movies under the "MovieApp" Link. Then, I re-opened "View Data" and saw the 
@@ -57,7 +57,7 @@ Task 4:  Working with a Database
          This exercise was more interesting that the previous one as this was my first real interaction with SQL Database. It was also interesting to see how the database could be intercated with and modified the "Models" folders.
 
 Date:   2024-01-25
-Times:  1250
+Time :  1250
 Task 5: Editing the movie database
         I had finished the previous task at home (Working with a Database) and put the default movies provided by the ASP.NET. However, when I got to class,
         the professor asked us to edit the database with our new movies which I did. 
@@ -67,4 +67,8 @@ Task 5: Editing the movie database
         file, but before then, I first deleted the  default movies then I edited the seed.cs file with my own movies. I proceeded to test the app and I observed that
         the movies had been added. 
          
-      WEARERS
+        2024-01-29
+Time:   1900
+Task 6: Controller actions and views
+        First, I edited the Models/Movie.cs file. I modified the code to include the correct display for the "Release date" as well as the correct datatype. Then, I browsed to the Movies Controller and observed that the "Release" and "Date" 
+        were now seperate. I followed manual and reviewed all the 
