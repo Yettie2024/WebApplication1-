@@ -78,7 +78,7 @@ Task 6: Controller actions and views
 
         2024-01-29
 Time:   1945
-Task 6: Add Search
+Task 7: Add Search
         First, I updated the Index Method found in the Controllers/MoviesController.cs file with the provided code. Once I updated the code, I navigated to the URL using the following link:https://localhost:7137/movies/index?searchString=Inception 
         to test the search filter included in the Index code and the web displayed only the movie "Inception". This confirmed that the search query actually works. Next, I added the filter string using the <form> tag and I also tested the filter on the
         web application and it worked. I followed that up to edit the "MoviesController" and Views/Movies/Index.cshtml" files to include the (HttpPost Index). I also tested this functionality on the web application and it worked. Next, I created 
@@ -90,5 +90,21 @@ Task 6: Add Search
 
         2024-01-30
 Time:   1900
-Task 7: Add a New Field
-        First, I added the rating ppty to the Models/Movie.cs file. Then, I built the  
+Task 8: Add a New Field
+        First, I added the rating property to the Models/Movie.cs file. Then, I built the app using the (Ctrl+Shift+B). Following this, I updated  (Bind) attribute under the "create" and ""Edit" action methods to include rating.
+        Then, I added the rating field /Views/Movies/Create.cshtml and /Views/Movies/Index.cshtml. Next, I updated the SeedData class to provide the value for the new column rating. Then as instructed by the manual, I updated the
+        package manager console to update the database. Then I deleted all the content in the DB, initialized and seeded the DB. Then, I ran the app and I observed that the Rating field appeared. 
+
+        Personal Observation
+        Overall, it was an fair exercise more difficult than the previous steps. It was difficult because at some point after adding the Rating filed to the SeedData.cs, the R column did not appear. So, I decided to delete the movies 
+        in the app, then, I reseeded the database and forced initialization before the Rating field finally appeared. 
+
+        2024-02-01
+Time:   1100
+Task 9: Add Validation
+        First,  I added the validation rules to the movie model to take advantage of the built-in validation attributes Required, StringLength, RegularExpression, Range and the DataType formatting attribute. Next, I ran the app and 
+        navigated to the Movies controller.Then, I tried to create a new movie and fill out the form with some invalid values. Once I did that,the form displayed error messages in the different fields. Then, I read through understanding 
+        how the validation works. I also went through how to use the data type attribute but I did not effect any changes in my current code.
+
+        Personal Observation
+        For me, the validation step was easy to understand except for the part that explained how 
