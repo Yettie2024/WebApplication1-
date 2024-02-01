@@ -107,4 +107,4 @@ Task 9: Add Validation
         how the validation works. I also went through how to use the data type attribute but I did not effect any changes in my current code.
 
         Personal Observation
-        For me, the validation step was easy to understand except for the part that explained how Javascript works with validation.Therefore, I will need to read more possibly from other resources, how the Javascript script works with Validation. 
+        For me, the validation step was easy to understand except for the part that explained how Javascript works with validation.Therefore, I will need to read more possibly from other resources, how the Javascript script works with Validation.
