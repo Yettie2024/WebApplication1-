@@ -25,6 +25,7 @@ public static class SeedData
                     Title = "The Dark Knight",
                     ReleaseDate = DateTime.Parse("2008-7-18"),
                     Genre = "Action",
+                    Rating = "R",
                     Price = 7.99M
                 },
                 new Movie
@@ -32,6 +33,7 @@ public static class SeedData
                     Title = "Avatar",
                     ReleaseDate = DateTime.Parse("2009-12-18"),
                     Genre = "Adventure",
+                    Rating = "R",
                     Price = 8.99M
                 },
                 new Movie
@@ -39,6 +41,7 @@ public static class SeedData
                     Title = "The Shape of Water",
                     ReleaseDate = DateTime.Parse("2017-12-1"),
                     Genre = "Adventure",
+                    Rating = "R",
                     Price = 9.99M
                 },
                 new Movie
@@ -46,6 +49,7 @@ public static class SeedData
                     Title = "Inception",
                     ReleaseDate = DateTime.Parse("2010-7-16"),
                     Genre = "Action",
+                    Rating = "R",
                     Price = 3.99M
                 },
                 new Movie
@@ -53,6 +57,7 @@ public static class SeedData
                     Title = "La La Land",
                     ReleaseDate = DateTime.Parse("2016-7-16"),
                     Genre = "Comedy",
+                    Rating = "R",
                     Price = 3.99M
                 }
             );

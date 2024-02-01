@@ -85,6 +85,10 @@ Task 6: Add Search
         the new "MovieGenreViewModel"class in the Models Folder and I adding the provided code to it. I also updated the code in the Index Method in Movies Controller as well as the "Index.cshtml" file in the "Views/Movies. then, I navigated to the web 
         application to test the genre filter and it worked. 
 
-
         Personal Observation.
         Again, it was interesting to see how modifying the Index method can allow filtering in the webapplication . Although, I still need to do more study of the ""Lambda expression"" and "LINQ" which were used in the "Index" code.
+
+        2024-01-30
+Time:   1900
+Task 7: Add a New Field
+        First, I added the rating ppty to the Models/Movie.cs file. Then, I built the  
