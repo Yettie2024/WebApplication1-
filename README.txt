@@ -54,7 +54,7 @@ Task 4:  Working with a Database
          "Program.cs" content. I proceeded to delete all the movie records in the database and force the app to initialize. Once, I did that, I observed that the app showed the seeded data i.e the movies I created. 
 
          Personal observation
-         This exercise was more interesting that the previous one as this was my first real interaction with SQL Database. It was also interesting to see how the database could be intercated with and modified the "Models" folders.
+         This exercise was more interesting that the previous one as this was my first real interaction with SQL Database. It was also interesting to see how the database could be interacted with and modified using the "Models" folders.
 
 Date:   2024-01-25
 Time :  1250
@@ -71,4 +71,17 @@ Task 5: Editing the movie database
 Time:   1900
 Task 6: Controller actions and views
         First, I edited the Models/Movie.cs file. I modified the code to include the correct display for the "Release date" as well as the correct datatype. Then, I browsed to the Movies Controller and observed that the "Release" and "Date" 
-        were now seperate. I followed manual and reviewed all the 
+        were now seperate. I followed manual and reviewed all the codes in different files. I also tested the functionality of the "Validation Tag Helper" in the Web Application and I noticed the error displays when the ""Release date"" and "price"
+
+        Personal Observation
+        This exercise was simple to follow and execute. It only required few code modifications and more of observing how the "Controller" and "View" components of the MVC interact.
+
+        2024-01-29
+Time:   1945
+Task 6: Add Search
+        First, I updated the Index Method found in the Controllers/MoviesController.cs file with the provided code. Once I updated the code, I navigated to the URL using the following link:https://localhost:7137/movies/index?searchString=Inception 
+        to test the search filter included in the Index code and the web displayed only the movie "Inception". This confirmed that the search query actually works. 
+
+
+        Personal Observation.
+        Again, it was interesting to see how modifying the Index method to allow for search capability actually works. Although, I still need to do more study of the ""Lambda expression"" and "LINQ" which were used in the "Index" code.
