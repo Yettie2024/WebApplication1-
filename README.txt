@@ -80,8 +80,11 @@ Task 6: Controller actions and views
 Time:   1945
 Task 6: Add Search
         First, I updated the Index Method found in the Controllers/MoviesController.cs file with the provided code. Once I updated the code, I navigated to the URL using the following link:https://localhost:7137/movies/index?searchString=Inception 
-        to test the search filter included in the Index code and the web displayed only the movie "Inception". This confirmed that the search query actually works. 
+        to test the search filter included in the Index code and the web displayed only the movie "Inception". This confirmed that the search query actually works. Next, I added the filter string using the <form> tag and I also tested the filter on the
+        web application and it worked. I followed that up to edit the "MoviesController" and Views/Movies/Index.cshtml" files to include the (HttpPost Index). I also tested this functionality on the web application and it worked. Next, I created 
+        the new "MovieGenreViewModel"class in the Models Folder and I adding the provided code to it. I also updated the code in the Index Method in Movies Controller as well as the "Index.cshtml" file in the "Views/Movies. then, I navigated to the web 
+        application to test the genre filter and it worked. 
 
 
         Personal Observation.
-        Again, it was interesting to see how modifying the Index method to allow for search capability actually works. Although, I still need to do more study of the ""Lambda expression"" and "LINQ" which were used in the "Index" code.
+        Again, it was interesting to see how modifying the Index method can allow filtering in the webapplication . Although, I still need to do more study of the ""Lambda expression"" and "LINQ" which were used in the "Index" code.
