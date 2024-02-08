@@ -12,6 +12,7 @@ public class Movie
 
     [Display(Name = "Release Date")]
     [DataType(DataType.Date)]
+    [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
     public DateTime ReleaseDate { get; set; }
 
     [RegularExpression(@"^[A-Z]+[a-zA-Z\s]*$")]

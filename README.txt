@@ -104,7 +104,16 @@ Time:   1100
 Task 9: Add Validation
         First,  I added the validation rules to the movie model to take advantage of the built-in validation attributes Required, StringLength, RegularExpression, Range and the DataType formatting attribute. Next, I ran the app and 
         navigated to the Movies controller.Then, I tried to create a new movie and fill out the form with some invalid values. Once I did that,the form displayed error messages in the different fields. Then, I read through understanding 
-        how the validation works. I also went through how to use the data type attribute but I did not effect any changes in my current code.
+        how the validation works. I also went through how to use the data type attribute and added the attribute. Then, I reran the app and observed that the data format had indeed changed. 
 
         Personal Observation
         For me, the validation step was easy to understand except for the part that explained how Javascript works with validation.Therefore, I will need to read more possibly from other resources, how the Javascript script works with Validation.
+
+        2024-02-06
+Time:   1900
+Task 10: Examine the Details and Delete methods of an ASP.NET Core app
+        
+
+
+        Personal Observation
+        
