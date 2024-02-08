@@ -119,4 +119,4 @@ Task 10: Examine the Details and Delete methods of an ASP.NET Core app
         Personal Observation
         This exercise was mainly focused on the different delete methods (Delete and DeleteConfirmed) used in the code and what each method means. I also got to learn how one can work around methods that have identical names and signature by adding
         (notused parameter). Overall, this entire exercise was a new experience for me being the first time I am actually running codes. There were some steps more difficult to understand than other. Therefore, i have taken it upon myself to go 
-        through the tutorial over again using external resources for help with my understanding. 
+        through the tutorial over again using external resources for help with my understanding.
