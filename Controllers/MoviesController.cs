@@ -153,7 +153,7 @@ namespace WebApplication1.Controllers
         }
 
         // GET: Movies/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(int id, bool notUsed)
         {
             if (id == null)
             {

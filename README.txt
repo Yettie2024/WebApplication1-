@@ -114,8 +114,9 @@ Time:   1215
 Task 10: Examine the Details and Delete methods of an ASP.NET Core app
          I opened the movies controller and examined the details method as instructed by the manual. I also examined the its GET request with three URL segments, the Movies controller, the Details method, and an id value as defined in Program.cs.
          Then I switched to MoviesController.cs to examine the "delete" and "deleteconfirmed" methods" and I understood the difference between both. While the HTTP GET Delete method doesn't delete the specified movie, the HttpPost Deleteconfirmed 
-         method is actually the method that does the deletion.  
+         method is actually the method that does the deletion. Next, I also editted the "delete" method to include the "bool not used" parameters.I re-ran the app successfully without any errors
 
         Personal Observation
         This exercise was mainly focused on the different delete methods (Delete and DeleteConfirmed) used in the code and what each method means. I also got to learn how one can work around methods that have identical names and signature by adding
-        (notused parameter). I tried to execute this in my code but I kept getting a build error so I undid the code. 
+        (notused parameter). Overall, this entire exercise was a new experience for me being the first time I am actually running codes. There were some steps more difficult to understand than other. Therefore, i have taken it upon myself to go 
+        through the tutorial over again using external resources for help with my understanding. 
